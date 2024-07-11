@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-image: url(bg.png);
+    background-size: contain; /* Menyesuaikan background image dengan ukuran layar tanpa terpotong */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    background-position: center; /* Memusatkan gambar di layar */
+    width: 100vw; /* Mengatur lebar body sesuai lebar viewport */
+    height: 100vh; /* Mengatur tinggi body sesuai tinggi viewport */
+    background-color: #000; /* Warna latar belakang untuk area kosong */
+}
+
+    
+
+header {
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    z-index: 1; 
+}
+h1{
+    font-size: 80px;
+}
+header p{
+    font-size: 40px;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Menggunakan flexbox */
+    justify-content: center; /* Memusatkan link secara horizontal */
+}
+
+#menu li {
+    margin-bottom: 0 5px;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+#menu li a {
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: #ddd;
+    margin:0 auto;
+    font-size: 35px;
+    color:black;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#menu li a:hover {
+    background-color: #b2dd73;
+}
+
+
+
+
